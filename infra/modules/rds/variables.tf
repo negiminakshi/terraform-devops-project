@@ -1,16 +1,12 @@
-variable "aws_region" {
+variable "private_subnet_ids" {
+  type = list(string)
+}
+
+variable "vpc_id" {
   type = string
 }
 
-variable "cpu" {
-  type = number
-}
-
-variable "memory" {
-  type = number
-}
-
-variable "container_image" {
+variable "ecs_security_group_id" {
   type = string
 }
 
