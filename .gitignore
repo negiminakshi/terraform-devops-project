@@ -15,3 +15,9 @@ terraform.tfvars
 ./
 ../
 .git/
+
+
+# Database backups
+
+scripts/backups/
+*.sql
